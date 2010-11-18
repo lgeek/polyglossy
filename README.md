@@ -20,7 +20,7 @@ I'm using a kind of second order Markov chain. I'm modelling the translation fro
 Provided language models
 ------------------------
 
-The file `data_2nd_order.json` contains models for English, French and German. These models aren't great! I've built them from the training data I've obtained while at Leeds Hack Day and working on the first Polyglossy built; it definitely needs some cleaning up.
+The file `data_2nd_order.json` contains models for English, French and German. These models aren't great! I've built them from the training data I've obtained while at Leeds Hack Day and working on the first Polyglossy build; it definitely needs some cleaning up.
 
 Generating language models
 --------------------------
