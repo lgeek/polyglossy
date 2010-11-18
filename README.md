@@ -10,6 +10,7 @@ How does it work?
 Polyglossy uses probabilistic models of languages. Each word from the text to be classified is piped through each Markov chain (representing a language model). This gives the fastest increase in accuracy as the length of the text grows. It peaks very closely to 100% accuracy.
 
 Other ideas I've tried:
+
 * piping the whole text through the Markov chain in a single go
 * classifying directly the whole text based on the sum of the results obtained by passing each word through the Markov chain
 * classifying directly the whole text based on the sum of the normalized results obtained by passing each word through the Markov chain
