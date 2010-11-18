@@ -27,7 +27,8 @@ Generating language models
 
 The language models are loaded from a JSON file with the following structure: `{ 'language_label' => {'x' = > { 'yz' => count}} }`. Feel free to generate your own, but at the moment I haven't published my build script.
 
-== How to get it running ==
+How to get it running
+---------------------
 Polyglossy is built on top of [node.js](http://nodejs.org/). I've only tested it with node v0.2.4. No other dependencies.
 
 You can change two options in the server.js file: the listening port and the language model file.
